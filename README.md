@@ -3,6 +3,26 @@
 ## Introduction
 An employee management system designed to facilitate the management of employee information within an organization. This system is built using Java, JSP, Servlets, CRUD operations, and SQL.
 
+## Roles
+1. **System manager:**
+- Search and update informations about branch manger, branch, group and employees. 
+- Create and delete branch manger, branch, group and employees.
+- Move out employees and search their move out records.
+- Search and delete employee absence records.
+
+2. **Branch manager:**
+- Search informations about branch manger, branch, group and employees. 
+- Register and search employee absence records.
+
+3. **Branch:**
+- Each branch has a branch manager.
+- At least one group in each branch.
+
+4. **Group:**
+- At least one employee in each group.
+
+5. **Employee:**
+
 ## Features
 - **Create:** Add new employee records.
 - **Read:** View existing employee details.
