@@ -54,13 +54,5 @@ To set up this project on your local machine, follow these steps:
 - Deploy the application on the server.
 - Access the application through a web browser at `localhost:[port]/login.jsp`.
 
-## Contribution
-Contributions to this project are welcome. To contribute:
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Create a new Pull Request.
-
 ## License
 [MIT License](LICENSE) or specify another license if applicable.
