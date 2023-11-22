@@ -6,12 +6,12 @@ An employee management system designed to facilitate the management of employee 
 ## Roles and Functions
 1. **System manager:**
 - Search and update informations about branch managers, branches, groups and employees. 
-- Create and delete branch mangers, branches, groups and employees.
+- Create and delete branch managers, branches, groups and employees.
 - Move out employees and search their move out records.
 - Search and delete employees' absence records.
 
 2. **Branch manager:**
-- Search informations about branch mangers, branches, groups and employees. 
+- Search informations about branch managers, branches, groups and employees. 
 - Register and search employees' absence records.
 
 3. **Branch:**
