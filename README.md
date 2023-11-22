@@ -16,7 +16,7 @@ An employee management system designed to facilitate the management of employee 
 
 3. **Branch:**
 - Each branch has a branch manager.
-- There are several branches in this company.
+- There are several branches in this organization.
 - At least one group in each branch.
 
 4. **Group:**
