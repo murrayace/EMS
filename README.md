@@ -24,7 +24,7 @@ An employee management system designed to facilitate the management of employee 
 
 5. **Employee:**
 
-## Effect of Deletion
+## Further Effects of Deletions
 - **Branch manager:** When a manager is deleted, the branch they originally managed will be automatically assigned to another existing branch manager by the system.
 - **Branch:** When a branch is deleted, the group they originally contained will also be deleted. The employee they originally contained will be automatically assigned to another existing group by the system.
 - **Group:** When a group is deleted, the employee they originally contained will be automatically assigned to another existing group by the system.
