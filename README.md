@@ -5,14 +5,14 @@ An employee management system designed to facilitate the management of employee 
 
 ## Roles and Functions
 1. **System manager:**
-- Read and update informations about branch manger, branch, group and employees. 
-- Create and delete branch manger, branch, group and employees.
+- Search and update informations about branch managers, branches, groups and employees. 
+- Create and delete branch mangers, branches, groups and employees.
 - Move out employees and search their move out records.
-- Search and delete employee absence records.
+- Search and delete employees' absence records.
 
 2. **Branch manager:**
-- Read informations about branch manger, branch, group and employees. 
-- Register and search employee absence records.
+- Search informations about branch mangers, branches, groups and employees. 
+- Register and search employees' absence records.
 
 3. **Branch:**
 - Each branch has a branch manager.
@@ -52,7 +52,7 @@ To set up this project on your local machine, follow these steps:
 4. **Build and Run:**
 - Compile the Java code.
 - Deploy the application on the server.
-- Access the application through a web browser at `localhost:[port]/EmployeeManagementSystem`.
+- Access the application through a web browser at `localhost:[port]/login.jsp`.
 
 ## Contribution
 Contributions to this project are welcome. To contribute:
