@@ -1,7 +1,7 @@
 # Employee Management System
 
 ## Introduction
-An employee management system designed to facilitate the management of employee information within an organization. This system is built using Java, JSP, Servlets, CRUD operations, and SQL.
+An employee management system designed to facilitate the management of employee information within an organization. This system is built using Java, JSP, Servlets, CRUD operations, and MySQL.
 
 ## Roles and Functions
 1. **System manager:**
@@ -34,7 +34,7 @@ An employee management system designed to facilitate the management of employee 
 - JSP (JavaServer Pages)
 - Servlets
 - CRUD Operations
-- SQL
+- MySQL
 
 ## Installation
 To set up this project on your local machine, follow these steps:
