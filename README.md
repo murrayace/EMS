@@ -22,7 +22,7 @@ An employee management system designed to facilitate the management of employee 
 4. **Group:**
 - At least one employee in each group.
 
-5. **Employee:**
+5. **Employee**
 
 ## Further Effects of Deletions
 - **Branch manager:** When a manager is deleted, the branch they originally managed will be automatically assigned to another existing branch manager by the system.
