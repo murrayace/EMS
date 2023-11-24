@@ -45,7 +45,6 @@ Furthermore, the system adopts the DAO pattern and service layer architecture to
 ### Back End
 - **Java**
 - **JDBC**
-- **MySQL**
 
 ### Database
 - **MySQL**
@@ -119,7 +118,6 @@ To set up this project on your local machine, follow these steps:
 ### 後端
 - **Java**
 - **JDBC**
-- **MySQL**
 
 ### 資料庫
 - **MySQL**
