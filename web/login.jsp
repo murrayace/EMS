@@ -15,9 +15,10 @@
   </head>
   <body>
   <div class="container">
-    <div class="form row" style="height: 300px;">
+    <div class="form row" style="height: 350px;">
       <form class="form-horizontal col-md-offset-3" id="login_form"
             action="<%= request.getContextPath()%>/account?method=login" method="post">
+        <h2 class="form_title" style="color: blueviolet;text-align: left">EMS員工管理系統</h2>
         <h3 class="form_title">用戶登入</h3>
         <div class="col-md-9">
           <div class="form-group">
