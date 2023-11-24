@@ -1,7 +1,11 @@
 # Employee Management System
 
 ## Introduction
-An employee management system designed to facilitate the management of employee information within an organization. This system is built using Java, JSP, Servlets, CRUD operations, and MySQL.
+This Employee Management System supports functions like employee, branch, and group management, as well as tracking employee absences. Managers can utilize it to handle various HR tasks within the company.
+
+The system's front end is built using HTML, CSS, and JavaScript technologies, integrating the Bootstrap framework and JQuery library to ensure a modern and responsive user interface. On the backend, the system uses Java as the primary programming language, coupled with Servlet technology to handle HTTP requests. Data storage and management are supported by a MySQL database, with JDBC technology applied for database operations.
+
+Furthermore, the system adopts the DAO pattern and service layer architecture to separate business logic from data access code, enhancing the system's maintainability and scalability.
 
 ## Roles and Functions
 1. **System manager:**
@@ -124,21 +128,23 @@ To set up this project on your local machine, follow these steps:
 - **Tomcat**
 - **Maven**
 
-## Installation
-To set up this project on your local machine, follow these steps:
+## 安裝
+要在您的本地機器上設置此項目，請按照以下步驟操作：
 
-1. **Clone the Repository:**
+1. **克隆倉庫：**
 
-2. **Install Required Libraries:**
-- Make sure you have Java and an appropriate Java server (like Apache Tomcat) installed.
-- Install any other dependencies that are listed in the project.
+2. **安裝所需庫：**
+- 確保您已安裝 Java 及適當的 Java 服務器（如 Apache Tomcat）。
+- 安裝項目中列出的任何其他依賴項。
 
-3. **Database Setup:**
-- Set up a SQL database according to the schema provided in the project.
-- Configure the database connection settings in the project files.
+3. **數據庫設置：**
+- 根據項目中提供的模式設置 SQL 數據庫。
+- 在項目文件中配置數據庫連接設置。
 
-4. **Build and Run:**
-- Compile the Java code.
-- Deploy the application on the server.
-- Access the application through a web browser at `localhost:[port]/login.jsp`.
+4. **構建並運行：**
+- 編譯 Java 代碼。
+- 在服務器上部署應用程序。
+- 通過網絡瀏覽器在 `localhost:[port]/login.jsp` 訪問應用程序。
 
+## 授權
+[MIT 授權](LICENSE) 或如果適用，指定其他授權。
