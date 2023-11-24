@@ -30,11 +30,25 @@ An employee management system designed to facilitate the management of employee 
 - **Group:** When a group is deleted, the employee they originally contained will be automatically assigned to another existing group by the system.
 
 ## Technologies
-- Java
-- JSP (JavaServer Pages)
-- Servlets
-- CRUD Operations
-- MySQL
+
+### Front End
+- **HTML/CSS**
+- **JavaScript**
+- **JSP (Java Server Pages)**
+- **Bootstrap**
+- **JQuery**
+
+### Back End
+- **Java**
+- **JDBC**
+- **MySQL**
+
+### Database
+- **MySQL**
+
+### Others
+- **Tomcat**
+- **Maven**
 
 ## Installation
 To set up this project on your local machine, follow these steps:
