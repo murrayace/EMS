@@ -1,4 +1,4 @@
-# Employee Management System
+# Employee Management System (EMS) 員工管理系統
 
 ## Introduction
 This Employee Management System supports CRUD operations like employee, branch, and group management, as well as tracking employee absences. Managers can utilize it to handle various HR tasks within the company.
