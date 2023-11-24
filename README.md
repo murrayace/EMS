@@ -75,7 +75,7 @@ To set up this project on your local machine, follow these steps:
 [MIT License](LICENSE) or specify another license if applicable.
 
 ## 簡介
-這個人事管理系統支持員工、分公司、小组管理以及員工缺勤紀錄等增刪改查功能，管理員可以透過他處理公司內各種人事業務。
+這個人事管理系統支持員工、分公司、小组管理以及員工缺勤紀錄等CRUD操作，管理員可以透過他處理公司內各種人事業務。
 
 系統的前端採用 HTML、CSS 和 JavaScript 技術構建，集成了 Bootstrap 框架和 JQuery 庫，確保用戶界面的現代性和響應式設計。在後端，系統使用 Java 作為主要編程語言，結合 Servlet 技術處理 HTTP 請求。數據存儲和管理由 MySQL 數據庫支持，同时應用了 JDBC 連接技術進行數據庫操作。
 
