@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <ul class="nav navbar-nav navbar-left">
         <li>
-          <a style="font-size: 26px">HRS人事管理系統-系統管理員</a>
+          <a style="font-size: 26px">EMS員工管理系統-系統管理員</a>
         </li>
       </ul>
       <span style="color: #cccccc;font-size: 26px;position: relative;top: 5px;"></span>
