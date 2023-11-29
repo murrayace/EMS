@@ -22,7 +22,6 @@ import java.util.List;
 @WebServlet("/absent.action")
 public class AbsentServlet extends HttpServlet {
 
-    private BranchService branchService = new BranchServiceImpl();
     private GroupService groupService = new GroupServiceImpl();
     private EmployeeService employeeService = new EmployeeServiceImpl();
     private AbsentService absentService = new AbsentServiceImpl();
