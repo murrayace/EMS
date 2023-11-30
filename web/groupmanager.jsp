@@ -5,10 +5,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <style>#deleteLabel {text-align: left !important;}</style>
-
+  <!-- 引入bootstrap -->
   <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- 引入fontawesome -->
   <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>人事管理系統</title>
@@ -17,6 +17,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-10">
+      <!--頂部搜索-->
       <div class="panel panel-default">
         <div class="panel-heading">搜索</div>
         <div class="panel-body">
@@ -39,6 +40,7 @@
                   </span>開始搜索
               </button>
             </div>
+            <!--添加-->
             <div class="form-group" style="margin-left: 48px">
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#addUserModal">
                   <span style="margin-right: 5px" class="" aria-hidden="true">
@@ -52,6 +54,7 @@
       <!-- 列表展示 -->
       <div class="table-responsive">
         <table class="table table-hover">
+          <!--     表頭      -->
           <thead>
           <tr>
             <th>ID</th>
@@ -63,6 +66,7 @@
             <th>操作</th>
           </tr>
           </thead>
+          <!--     表內容      -->
           <tbody>
           <c:forEach items="${list}" var="group">
             <tr>
@@ -93,7 +97,7 @@
           </c:forEach>
           </tbody>
         </table>
-
+        <!--    彈出添加對話框    -->
         <form method="post" action="/group.action?method=save" class="form-horizontal" style="margin-top: 0px" role="form"
               id="form_data" style="margin: 20px;">
           <div class="modal fade" id="addUserModal" tabindex="-1"
@@ -158,7 +162,7 @@
             </div>
           </div>
         </form>
-
+        <!--    彈出修改對話框    -->
         <form method="post" action="/group.action?method=update" class="form-horizontal" style="margin-top: 0px" role="form"
               id="form_data" style="margin: 20px;">
           <div class="modal fade" id="updateUserModal" tabindex="-1"
@@ -206,7 +210,7 @@
             </div>
           </div>
         </form>
-
+        <!--    彈出刪除對話框    -->
         <form method="post" action="/group.action?method=delete"
               class="form-horizontal" style="margin-top: 0px" role="form"
               id="form_data" style="margin: 20px">
