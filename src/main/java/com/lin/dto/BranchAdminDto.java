@@ -7,9 +7,8 @@ import java.util.List;
 public class BranchAdminDto {
     private Integer code;
     private BranchAdmin branchAdmin;
-    private List<Branch> managedBranches;//管理的區域
+    private List<Branch> managedBranches;//管理的分公司
 
-    //新增getter setter
     public List<Branch> getManagedBranches() {
         return managedBranches;
     }
