@@ -13,10 +13,6 @@ public class Absent {
     private String createDate;
     private String reason;
 
-    public Absent(Integer id) {
-        this.id = id;
-    }
-
     public Absent(Integer id, String branchName, String groupName, String employeeName, String branchAdminName, String createDate, String reason) {
         this.id = id;
         this.branchName = branchName;
