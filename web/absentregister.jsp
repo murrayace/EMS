@@ -4,17 +4,17 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+  <!-- 引入bootstrap -->
   <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- 引入fontawesome -->
   <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--日期插件-->
   <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment-with-locales.js"></script>
   <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-  <title>人事管理系統</title>
+  <title>員工管理系統</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -133,7 +133,7 @@
         }
       })
     })
-
+    //日期
     $('#datetimepicker').datetimepicker({
       format: 'YYYY-MM-DD',
       locale: moment.locale('zh-tw'),
