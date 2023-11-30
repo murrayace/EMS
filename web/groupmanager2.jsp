@@ -10,7 +10,7 @@
   <!-- 引入fontawesome -->
   <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>人事管理系統</title>
+  <title>員工管理系統</title>
 </head>
 <body>
 <div class="container-fluid">
