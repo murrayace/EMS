@@ -62,6 +62,4 @@ public class BranchServiceImpl implements BranchService {
         Integer delete = this.branchDao.delete(id);
         if (delete !=1) throw new RuntimeException("分公司刪除失敗");
     }
-
-    //帶入管區
 }
