@@ -4,13 +4,13 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+  <!-- 引入bootstrap -->
   <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- 引入fontawesome -->
   <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>人事管理系統</title>
+  <title>員工管理系統</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -45,6 +45,7 @@
       <!-- 列表展示 -->
       <div class="table-responsive">
         <table class="table table-hover">
+          <!--     表頭      -->
           <thead>
           <tr>
             <th>ID</th>
@@ -56,6 +57,7 @@
             <th>日期</th>
           </tr>
           </thead>
+          <!--     表內容      -->
           <tbody>
           <c:forEach items="${list}" var="absent">
             <tr>
