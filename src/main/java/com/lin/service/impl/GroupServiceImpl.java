@@ -47,6 +47,7 @@ public class GroupServiceImpl implements GroupService {
         List<Integer> employeeIdList = this.employeeDao.findEmployeeIdByGroupId(id);
         for (Integer employeeId : employeeIdList){
             Integer availableId = this.groupDao.availableId();
+            //把員工分配到新的小組
             Integer updateGroup = this.employeeDao.updateGroup(employeeId,availableId);
             Integer subAvailable = this.groupDao.subAvailable(availableId);
             if (updateGroup !=1 || subAvailable !=1) throw new RuntimeException("員工更換分公司失敗");
