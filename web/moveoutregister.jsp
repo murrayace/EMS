@@ -4,13 +4,13 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+  <!-- 引入bootstrap -->
   <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- 引入fontawesome -->
   <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>人事管理系統</title>
+  <title>員工管理系統</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -80,6 +80,7 @@
           </tbody>
         </table>
 
+        <!--彈出離退對話框-->
         <form method="post" action="/moveout.action?method=moveout"
               class="form-horizontal" style="margin-top: 0px" role="form"
               id="form_data" style="margin: 20px">
@@ -97,7 +98,7 @@
 
                     <div class="form-group">
                       <div class="col-sm-9">
-                        <h3 class="col-sm-18 control-label" id="deleteLabel">刪除資訊</h3>
+                        <h3 class="col-sm-18 control-label" id="deleteLabel">離退資訊</h3>
                         <input type="hidden" class="form-control" id="tab"
                                name="tab" placeholder="" value="dor_admin">
                         <input type="hidden" class="form-control" id="id"
