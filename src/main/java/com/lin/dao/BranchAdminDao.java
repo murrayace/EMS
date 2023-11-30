@@ -13,5 +13,5 @@ public interface BranchAdminDao {
     public Integer deleteById(Integer id);
     public BranchAdmin findByUserName(String username);
     public Integer availableId();
-    public List<Branch> findBranchesByAdminId(Integer adminId);//新增
+    public List<Branch> findBranchesByAdminId(Integer adminId);//管理員管理的分公司
 }
