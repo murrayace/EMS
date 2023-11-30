@@ -66,8 +66,7 @@ public class BranchAdminServiceImpl implements BranchAdminService {
             }else {
                 branchAdminDto.setCode(0);//登入成功
                 branchAdminDto.setBranchAdmin(branchAdmin);
-
-                //新增
+                //搜索管理的區域
                 List<Branch> managedBranches = branchAdminDao.findBranchesByAdminId(branchAdmin.getId());
                 branchAdminDto.setManagedBranches(managedBranches);
             }
