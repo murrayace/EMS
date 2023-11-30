@@ -33,7 +33,6 @@ public class Branch {
         this.name = name;
     }
 
-    //新增
     public Branch(int id, String name, String introduction) {
         this.id=id;
         this.name=name;
