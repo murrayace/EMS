@@ -38,7 +38,8 @@ public class AbsentServlet extends HttpServlet {
         String method = req.getParameter("method");
         switch(method){
             case "init":
-                List<Branch> managedBranches = (List<Branch>) session.getAttribute("managedBranches");//修改
+                //管理員管理的分公司
+                List<Branch> managedBranches = (List<Branch>) session.getAttribute("managedBranches");
                 List<Group> groupList = this.groupService.findByBranchId(managedBranches.get(0).getId());
                 List<Employee> employeeList = this.employeeService.findByGroupId(groupList.get(0).getId());
                 req.setAttribute("branchList", managedBranches);
@@ -59,7 +60,7 @@ public class AbsentServlet extends HttpServlet {
                 this.absentService.save(new Absent(branchId,groupId,employeeId,branchAdmin.getId(),date,reason));
                 resp.sendRedirect("/absent.action?method=init");
                 break;
-            case "list"://刪除後跳轉
+            case "list":
                 req.setAttribute("list",this.absentService.list());
                 req.getRequestDispatcher("absentdelete.jsp").forward(req,resp);
                 break;
