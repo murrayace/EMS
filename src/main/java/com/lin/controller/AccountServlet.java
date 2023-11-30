@@ -80,7 +80,7 @@ public class AccountServlet extends HttpServlet {
                         }
                 }
                 break;
-            case "logout":
+            case "logout"://登出
                 req.getSession().invalidate();
                 resp.sendRedirect("/login.jsp");
                 break;
