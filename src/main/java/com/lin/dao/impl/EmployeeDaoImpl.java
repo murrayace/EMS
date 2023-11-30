@@ -16,7 +16,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
     public List<Employee> list() {
         Connection connection = JDBCUtil.getConnection();
         String sql = "select e.id,e.number,e.name,e.gender,e.group_id,b.name,e.state,e.create_date" +
-                " from employee e,`group` b where e.group_id = b.id";
+                " from employee e,`group` b where e.state='在職' and e.group_id = b.id";
         PreparedStatement statement = null;
         ResultSet resultSet = null;
         List<Employee> list = new ArrayList<>();
