@@ -5,10 +5,10 @@
     <title>登入介面</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
-
+    <!-- 引入bootstrap -->
     <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- 引入fontawesome -->
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
