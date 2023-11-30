@@ -11,9 +11,9 @@ public interface EmployeeDao {
     public Integer update(Employee employee);
     public Integer delete(Integer id);
     public List<Integer> findEmployeeIdByGroupId(Integer id);
-    public Integer updateGroup(Integer employeeId, Integer groupId);
+    public Integer updateGroup(Integer employeeId, Integer groupId);//更新員工所在小組
     public List<Employee> moveoutlist();
     public List<Employee> searchForMoveout(String key, String value);
-    public Integer updateStateById(Integer id);
+    public Integer updateStateById(Integer id);//變更在職狀態
     public List<Employee> findByGroupId(Integer id);
 }
